@@ -14,10 +14,10 @@ function App() {
   }
 
   const brands = [
-    { name: 'pfizer', image: 'src//assets//pfizer.png' },
-    { name: 'mufg', image: 'src//assets//mufg.png' },
-    { name: 'union', image: 'src//assets//union.png' },
-    { name: 'microsoft', image: 'src//assets//microsoft.png' }
+    { name: 'pfizer', image: 'src//assets//brands//pfizer.png' },
+    { name: 'mufg', image: 'src//assets//brands//mufg.png' },
+    { name: 'union', image: 'src//assets//brands//union.png' },
+    { name: 'microsoft', image: 'src//assets//brands//microsoft.png' }
   ];
 
   return (
