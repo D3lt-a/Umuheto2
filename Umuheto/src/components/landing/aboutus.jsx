@@ -10,7 +10,7 @@ function aboutus() {
                         <img className="rounded-lg" src={Image} alt="image description" />
                     </a>
                 </div>
-                <div className="sm:max-w-sm w-1/2 text-left">
+                <div className="w-full lg:w-1/2 text-left">
                     <a href="#">
                         <h5 className="mb-2 text-2xl font-bold tracking-tight text-blue-950">Your trusted partner in the world
                             of custom software development, training, and IT services.</h5>
