@@ -4,7 +4,7 @@ function HeroSection() {
       <div>
         
         <section className="bg-center bg-no-repeat bg-blue-950 bg-blend-multiply">
-          <div className="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
+          <div className="px-4 mx-auto max-w-screen-xl text-center py-11 lg:py-32">
             <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">In All Things, We Serve with
             Innovation, Excellence, and Dedication</h1>
             <p className="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">Transforming Challenges into Opportunities with Cutting-Edge Solutions: Empowering Your Success Through Advanced Technology and Creative Problem-Solving</p>

@@ -7,7 +7,7 @@ import About from './components/pages/about'
 import Reachus from './components/pages/reachus'
 
 function App() {
-  const [tab, setTab] = React.useState(0)
+  const [tab, setTab] = React.useState(1)
 
   const ChangeTab = (value) => {
     setTab(value)
