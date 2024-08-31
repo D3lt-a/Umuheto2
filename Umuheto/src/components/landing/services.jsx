@@ -10,18 +10,20 @@ function services() {
     ]
 
     return (
-        <div className="bg-blue-950 text-white p-4">
+        <div className="bg-blue-950 text-white p-9 ">
             <div>
                 <div>
-                    <h1 className="text-2xl lg:text-5xl tracking-wide  text-center font-bold">Dive Into Our Suite of Developers Solutions Today!</h1>
+                    <h1 className="text-2xl lg:text-5xl tracking-wide  mb-6 text-center font-bold">Dive Into Our Suite of Developers Solutions Today!</h1>
                 </div>
-                <div>
+                <div className="lg:w-2/2 grid grid-cols-1 items-center mx-auto sm:grid-cols-2 lg:grid-cols-3 gap-10">
                     {services.map((services, index) => (
-                        <div key={index}>
+                        <div key={index} className="text-center">
 
-                            <img src={services.icon} alt="" className="w-11 mb-4" />
-                            <h3 className="text-xl font-semibold mb-2">{services.title}</h3>
-                            <p className="text-white">{services.descritpion}</p>
+                            <img src={services.icon} alt="" className="w-11 mx-auto rounded" />
+                            <div>
+                                <h3 className="text-xl font-semibold mb-2">{services.title}</h3>
+                                <p className="text-white">{services.descritpion}</p>
+                            </div>
                         </div>
                     ))}
                 </div>
