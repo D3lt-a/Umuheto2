@@ -14,7 +14,7 @@ function contactus() {
 
     return (
 
-        <div className="mt-4 "> 
+        <div className="mt-4 p-4"> 
             <div className="max-w-6xl bg-blue-950 rounded-lg p-11 mx-auto flex flex-col lg:flex-row  items-start lg:items-center">
                 <div className="lg:w-1/3 ml-5 mb-8 lg:mb-0">
                     <h1 className="text-2xl font-bold text-orange-500 mb-4">
