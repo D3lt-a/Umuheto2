@@ -34,7 +34,7 @@ function contactus() {
 
                 </div>
 
-                <div className="lg:w-2/3 grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 gap-8">
+                <div className="lg:w-2/3 grid grid-cols-2 sm:grid-cols-1 lg:grid-cols-3 gap-8">
                     {sectors.map((sectors, index) => (
                         <div key={index} className=" p-4 bg-blue-900 rounded-lg text-center">
                             <h1 className="text-white text-2xl">{sectors.name}</h1>

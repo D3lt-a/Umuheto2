@@ -10,7 +10,7 @@ function services() {
     ]
 
     return (
-        <div className="bg-blue-950 text-white p-9 ">
+        <div className="bg-blue-950 mb-11 text-white p-9 ">
             <div>
                 <div>
                     <h1 className="text-2xl lg:text-5xl tracking-wide  mb-6 text-center font-bold">Dive Into Our Suite of Developers Solutions Today!</h1>
